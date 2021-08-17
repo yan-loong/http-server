@@ -1,0 +1,26 @@
+{
+  "name": "node-http-simple-server",
+  "version": "1.0.0",
+  "description": "simple, zero-configuration command-line http server",
+  "main": "http.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"npx run http.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yan-loong/http-server.git"
+  },
+  "keywords": [
+    "Http-server",
+    "node-cli",
+    "server",
+    "static"
+  ],
+  "author": "Guro Beridze",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yan-loong/http-server/issues"
+  },
+  "homepage": "https://github.com/yan-loong/http-server#readme"
+}
