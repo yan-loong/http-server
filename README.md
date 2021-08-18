@@ -1,7 +1,7 @@
 # http-server-node
-simple, Based on NodeJs, command-line http server
+Simple, Based on NodeJs, command-line http server
 
-
+![Example of running http-server](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Node.js_logo_2015.svg/1280px-Node.js_logo_2015.svg.png)
 
 # http-server-node: on NodeJs based, command-line http server
 
