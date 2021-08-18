@@ -1,5 +1,5 @@
 # http-server-node
-simple, zero-configuration command-line http server
+simple, Based on NodeJs, command-line http server
 
 
 
