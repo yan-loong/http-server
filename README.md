@@ -41,9 +41,9 @@ Using `npx` you can run the script without installing it first:
 | Command         | 	Description         | Defaults  |
 | -------------  |-------------|-------------|
 |`-p` or `--port` |Port to use..|3030|
-|`-o or `--open`  |Open browser window after starting the server.  |false |
-|`-host or `--host`  |Host to use |  127.0.0.1 |
-|`-e or `--entryPoint`  |Entry Point to use |index.html |
+|`-o ` or `--open`  |Open browser window after starting the server.  |false |
+|`-h` or `--host`  |Host to use |  127.0.0.1 |
+|`-e` or `--entryPoint`  |Entry Point to use |index.html |
 
 
 ## Magic Files
