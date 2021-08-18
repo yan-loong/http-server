@@ -1,6 +1,5 @@
 #! /usr/bin/env node
 
-const config = require("../lib/config")
 const arguments = require("../lib/arguments.js");
 const server = require("../lib/server");
 const fileSystem = require("../lib/utils/file-system");
@@ -13,6 +12,7 @@ fileSystem.findEntryPoint()
     })
     .catch(err => {
         console.error(err)
-        process.exit(1);
+        process.exit(1
+        );
     })
 
