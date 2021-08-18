@@ -1,11 +1,13 @@
 {
-  "name": "node-http-simple-server",
+  "name": "http-server-node",
   "version": "1.0.0",
   "description": "simple, zero-configuration command-line http server",
-  "main": "http.js",
+  "main": "./bin/http-server-node.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"npx run http.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "http-server-node": "./bin/http-server-node.js"
   },
   "repository": {
     "type": "git",
@@ -17,10 +19,20 @@
     "server",
     "static"
   ],
+  "files": [
+    "lib",
+    "bin",
+    "doc"
+  ],
   "author": "Guro Beridze",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/yan-loong/http-server/issues"
   },
-  "homepage": "https://github.com/yan-loong/http-server#readme"
+  "homepage": "https://github.com/yan-loong/http-server#readme",
+  "dependencies": {
+    "mime-db": "^1.49.0",
+    "mime-lookup": "0.0.2",
+    "minimist": "^1.2.5"
+  }
 }
