@@ -1,6 +1,6 @@
 {
   "name": "http-server-node",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "simple, zero-configuration command-line http server",
   "main": "./bin/http-server-node.js",
   "scripts": {
