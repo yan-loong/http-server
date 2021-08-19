@@ -31,9 +31,9 @@ Using `npx` you can run the script without installing it first:
 
      http-server-node [entryPoint]
 
-`[entryPoint]` defaults to `index.html`
+`[entryPoint]` defaults to `./index.html` (Relative to Current Working directory)
 
-*Now you can visit http://localhost:3030 to view your server*
+*Now you can visit http://http://127.0.0.1:3030 to view your server*
 
 
 ## Available Options:
@@ -43,7 +43,7 @@ Using `npx` you can run the script without installing it first:
 |`-p` or `--port` |Port to use..|3030|
 |`-o ` or `--open`  |Open browser window after starting the server.  |false |
 |`-h` or `--host`  |Host to use |  127.0.0.1 |
-|`-e` or `--entryPoint`  |Entry Point to use |index.html |
+|`-e` or `--entryPoint`  |Entry Point to use |./index.html |
 
 
 ## Magic Files
